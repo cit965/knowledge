@@ -21,7 +21,7 @@ const config = {
   organizationName: 'cit965', // Usually your GitHub org/user name.
   projectName: 'knowledge', // Usually your repo name.
   deploymentBranch: "main",
-  trailingSlash: true,
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
