@@ -11,32 +11,38 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: '传道',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/cncf.svg').default,
     description: (
       <>
-        临河而羡鱼，不如归家织网。
-        ——《淮南子》
+        <p>
+          乞火不若取燧，<br/>
+          寄汲不若凿井。<br/>
+          ——《淮南子》
+        </p>
       </>
     ),
   },
   {
     title: '授业',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/kubernetes.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          业精于勤，荒于嬉；<br/>
+          行成于思，毁于随。<br/>
+          ——《进学解》
       </>
     ),
   },
   {
     title: '解惑',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/stackoverflow.svg').default,
     description: (
       <>
-        不贵其师，不爱其资。
-        虽智大迷，是谓要妙。
-        ——《老子》
+        <p>
+          不贵其师，不爱其资；<br/>
+          虽智大迷，是谓要妙。<br/>
+          ——《道德经》
+        </p>
       </>
     ),
   },

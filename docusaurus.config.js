@@ -78,7 +78,11 @@ const config = {
             position: 'left',
             label: '课程',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          {
+            to: '/blog',
+            label: '博客',
+            position: 'left'
+          },
           {
             href: 'https://github.com/cit965',
             label: 'GitHub',
@@ -103,31 +107,32 @@ const config = {
             ],
           },
           {
-            title: '社区',
+            title: '交流',
             items: [
               // {
               //   label: 'Stack Overflow',
               //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               // },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
               {
                 label: '微信',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://github.com/cit965',
+              },
+              {
+                label: 'Slack',
+                href: 'https://github.com/cit965',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
-                to: '/blog/',
+                label: '商业合作',
+                // to: '/blog',
+                href: 'https://github.com/cit965',
               },
               {
-                label: 'GitHub',
+                label: '加入我们',
                 href: 'https://github.com/cit965',
               },
             ],
