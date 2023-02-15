@@ -2,69 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cit965.github.io/knowledge/en/blog</id>
     <title>CIT 965 Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2021-12-16T14:45:58.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cit965.github.io/knowledge/en/blog"/>
     <subtitle>CIT 965 Blog</subtitle>
     <icon>https://cit965.github.io/knowledge/en/img/cit965.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://cit965.github.io/knowledge/en/blog/welcome</id>
-        <link href="https://cit965.github.io/knowledge/en/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/knowledge/en/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <title type="html"><![CDATA[产品理论分析]]></title>
+        <id>https://cit965.github.io/knowledge/en/blog/design</id>
+        <link href="https://cit965.github.io/knowledge/en/blog/design"/>
+        <updated>2021-12-16T14:45:58.000Z</updated>
+        <summary type="html"><![CDATA[背景]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="背景">背景<a href="#背景" class="hash-link" aria-label="Direct link to 背景" title="Direct link to 背景">​</a></h3><p>随着社会的进步，程序员的业余时间越来越多，这些时间被用来创造价值，整个社会“劳动业余价值”不断增长。业余价值往往发起于个人，当达到一定规模后部分转化为“劳动企业价值“，最终都会转化为”消费价值“。
+服务业与社会生产力，经济成正比，经济越发达的国家制造业转移到国外，相对教育和服务业越发达，站在服务教育业的交汇处，是未来20年的长期风口</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="受众">受众<a href="#受众" class="hash-link" aria-label="Direct link to 受众" title="Direct link to 受众">​</a></h3><p>拥有创造力的人群，能够快速创造价值，例如程序员，硬件工程师，小说家, 这些人有个特点，容易接受新事物，容易形成小团体，具有较高文化水平，付费能力强</p><p>他们业余创造价值的过程和企业不同，表现在创造的多样性，周期变短，成本更低，团队更小等...</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="创造价值过程要素">创造价值过程要素<a href="#创造价值过程要素" class="hash-link" aria-label="Direct link to 创造价值过程要素" title="Direct link to 创造价值过程要素">​</a></h3><ul><li>积累<blockquote><p>我们提供更好的学习方式，沉静式学习，场景式学习，陪伴式学习，我们提供更强的资金支持，帮助你解决资源问题，没有后顾之忧</p></blockquote></li><li>合作<blockquote><p>我们提供更靠谱的合伙人，助力筛选人才</p></blockquote></li><li>推广<blockquote><p>我们提供流量，不同价值有不同的流量入口，我们提供一系列入口</p></blockquote></li><li>持续<blockquote><p>我们提供持续创造的环境，让你越做越大</p></blockquote></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="产品形态">产品形态<a href="#产品形态" class="hash-link" aria-label="Direct link to 产品形态" title="Direct link to 产品形态">​</a></h3><ul><li>初期：手机端社交为主；web端主要是沉静式学习，助力价值的<em>积累</em></li><li>前期：手机端团体为主；web端主要是订阅式学习，积累平台原始资本</li><li>中期：为创造价值助力，核心产品护城河和社区，引入行业顶尖人才</li><li>后期：服务创造价值的整个生命周期，包括后续价值消费</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="名词解释">名词解释<a href="#名词解释" class="hash-link" aria-label="Direct link to 名词解释" title="Direct link to 名词解释">​</a></h3><ol><li>劳动业余价值：劳动力在工作时间之外创造的价值</li><li>劳动企业价值：劳动力在企业创造的价值</li><li>消费价值：劳动力消费掉的价值</li></ol>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://cit965.github.io/knowledge/en/blog/mdx-blog-post</id>
-        <link href="https://cit965.github.io/knowledge/en/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="docusaurus" term="docusaurus"/>
+        <title type="html"><![CDATA[OAuth]]></title>
+        <id>https://cit965.github.io/knowledge/en/blog/oauth</id>
+        <link href="https://cit965.github.io/knowledge/en/blog/oauth"/>
+        <updated>2021-12-10T15:19:23.000Z</updated>
+        <summary type="html"><![CDATA[场景]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="场景">场景<a href="#场景" class="hash-link" aria-label="Direct link to 场景" title="Direct link to 场景">​</a></h3><p>有这样一种场景，一个用户（假设是QQ），希望让一个第三方的应用（比如说某个论坛），能够得到关于自身的一些信息（唯一用户标识，比如说QQ号，用户个人信息，比如说是一些基础资料，昵称和头像等）。但是在获得这些资料的同时，却也不能提供用户名和密码之类的验证信息。比如说用户不可能将自身的用户名和密码给第三方让第三方到用户中心之类的地方去获取信息。要达到这样的结果肯定有许多的实现方式。而Oatuh2就是实现上述目标的一种规范，或者说是具体实现的指导方案</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="原理">原理<a href="#原理" class="hash-link" aria-label="Direct link to 原理" title="Direct link to 原理">​</a></h3><p>OAuth 引入了一个授权层，用来分离两种不同的角色：客户端和资源所有者。
+客户端想要在一段时间内获得用户数据资源访问权限，需要请求资源服务器，由资源服务器来询问用户是否同意授权。用户同意以后，资源服务器可以向客户端颁发令牌。客户端通过令牌，去请求数据，这种互联网最普遍的授权方式被称作OAuth</p><p>如果你对oauth流程不了解，oauth原理可以看<a href="https://www.ruanyifeng.com/blog/2019/04/oauth_design.html" target="_blank" rel="noopener noreferrer">阮一峰oauth介绍</a>，以及<a href="https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps" target="_blank" rel="noopener noreferrer">github接口文档</a>。</p><p>这里简单描述下获取token数据流程，大致有两个阶段，如下图：
+<img loading="lazy" src="https://raw.githubusercontent.com/cit965/blog-picture/master/nextjs-oauth-github.png" alt="xx" class="img_ev3q"></p><ul><li>阶段一：前端访问服务器auth接口，服务器请求 github 并且重定向到用户授权页面</li><li>阶段二：用户点击授权按钮，github 回调服务器 callback 接口并携带 code 和 state 参数；服务器用 code 去交换 token，并重定向到前端页面</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="注意点">注意点<a href="#注意点" class="hash-link" aria-label="Direct link to 注意点" title="Direct link to 注意点">​</a></h3><p>oauth2只是一个标准，如果是新手建议先了解下原理，每个厂商的实现细节上可能会略有不同，核心是授权原理以及工程化流程，可以参考下</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="使用场景">使用场景<a href="#使用场景" class="hash-link" aria-label="Direct link to 使用场景" title="Direct link to 使用场景">​</a></h3><p>本站采用的github评论系统其实就用到了OAuth，当你点击评论时，需要授权cit965.com这个网站能够访问你的用户信息，只有你手指点击了同意，我才能获取到你的头像和昵称，并且在一段时间内，你不需要再次登陆，你可以思考下为什么你再次打开网站评论时不需要授权？如果你知道token存在哪里，欢迎在下方评论给出你的答案！</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="引用">引用<a href="#引用" class="hash-link" aria-label="Direct link to 引用" title="Direct link to 引用">​</a></h3><p>[1][阮一峰oauth介绍]<!-- -->(<a href="https://www.ruanyifeng.com/blog/2019/04/oauth_design.html" target="_blank" rel="noopener noreferrer">https://www.ruanyifeng.com/blog/2019/04/oauth_design.html</a>)</p><p>[2][重构oauth demo golang语言]<!-- -->(<a href="https://github.com/koderover/zadig/pull/725" target="_blank" rel="noopener noreferrer">https://github.com/koderover/zadig/pull/725</a>)</p><p>[3][github接口文档]<!-- -->(<a href="https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps" target="_blank" rel="noopener noreferrer">https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps</a>)</p><p>[4][csrf]<!-- -->(<a href="https://www.jianshu.com/p/c7c8f51713b6" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/c7c8f51713b6</a>)</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://cit965.github.io/knowledge/en/blog/long-blog-post</id>
-        <link href="https://cit965.github.io/knowledge/en/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
-        </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <title type="html"><![CDATA[历程]]></title>
+        <id>https://cit965.github.io/knowledge/en/blog/timeline</id>
+        <link href="https://cit965.github.io/knowledge/en/blog/timeline"/>
+        <updated>2021-12-09T15:25:34.000Z</updated>
+        <summary type="html"><![CDATA[- 2021.12.08 创立组织，上线 hugo 网站]]></summary>
+        <content type="html"><![CDATA[<ul><li>2021.12.08 创立组织，上线 hugo 网站</li><li>2021.12.09 网站添加 <a href="http://www.cit965.com" target="_blank" rel="noopener noreferrer">www.cit965.com</a> 域名</li><li>2021.12.10 讲师第一次会议，介绍自己，交流想法，网站加上评论系统</li></ul>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://cit965.github.io/knowledge/en/blog/first-blog-post</id>
-        <link href="https://cit965.github.io/knowledge/en/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <title type="html"><![CDATA[初心]]></title>
+        <id>https://cit965.github.io/knowledge/en/blog/begin</id>
+        <link href="https://cit965.github.io/knowledge/en/blog/begin"/>
+        <updated>2021-12-08T11:51:43.000Z</updated>
+        <summary type="html"><![CDATA[初心]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="初心">初心<a href="#初心" class="hash-link" aria-label="Direct link to 初心" title="Direct link to 初心">​</a></h3><p>我是一个普通的互联网沪漂码农，今天是2021年12月8号，如同千千万万个打工人一样，我每天的生活就是两点一线，9点上班9点下班。</p><p>我曾是少年，曾崇拜过乔布斯，曾梦想改变世界。但是工作了2年多，我渐渐迷失了，迷失在中国互联网这个虚假繁荣的大环境，独自思考的时间似乎只有上下班那地铁公交的半小时，除此之外，我似乎没有体力和兴趣去探索未知，我是变得怯弱还是懒惰，又或者是被生活压的喘不过气？</p><p>相信这样的焦虑不只是我一个人，我想通过力所能及的事去改变这种现状，如果无法改变全世界，那我只想改变我自己，而这也是我决定花更多的业余时间去探索，去改变。</p><p>一个人能走的更快，但他走不远，我曾经一个人学习，可最近一年懈怠了，原因我不想深究。而令我印象最深刻的美好回忆也是当初北漂时候，认识的几个好知己一起每周刷leetcode，没有达标的发红包，我们会每周交流下刷题经验，并且互相监督。</p><p>我决定重新构建SIG小组，做自己的主人，做想做的事，认识更多志同道合的朋友，不枉青春年华探索持续成长，掀起互联网文化大革命</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="规划">规划<a href="#规划" class="hash-link" aria-label="Direct link to 规划" title="Direct link to 规划">​</a></h3><p>创建SIG小组，每周举办直播，认识志同道合的小伙伴</p><p>创建计算机课程体系，持续不断的陪伴式成长取代填鸭式教育</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="价值观">价值观<a href="#价值观" class="hash-link" aria-label="Direct link to 价值观" title="Direct link to 价值观">​</a></h3><p>不以盈利为目的，以陪伴个人成长为价值导向，以改变中国互联网畸形价值观为使命</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="落实">落实<a href="#落实" class="hash-link" aria-label="Direct link to 落实" title="Direct link to 落实">​</a></h3><ul><li>建立b站系列课程，输出系列课程，比如计算机操作系统，k8s源码</li><li>建立学习小组，陪伴指导式学习，互相促进共同成长</li><li>建立讲师小组，探索生态闭环，输出价值观和技术</li><li>不做推广，只靠吸引</li></ul>]]></content>
     </entry>
 </feed>
