@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkknowledge=self.webpackChunkknowledge||[]).push([[8496],{1033:e=>{e.exports=JSON.parse('{"permalink":"/knowledge/en/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
