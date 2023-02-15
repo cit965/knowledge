@@ -10,17 +10,17 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '传道',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        临河而羡鱼，不如归家织网。
+        ——《淮南子》
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '授业',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -30,12 +30,13 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '解惑',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        不贵其师，不爱其资。
+        虽智大迷，是谓要妙。
+        ——《老子》
       </>
     ),
   },

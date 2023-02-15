@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'CIT 965',
+  tagline: '计算机兴趣探索小组',
+  favicon: 'img/cit965.ico',
 
   // Set the production url of your site here
   url: 'https://cit965.github.io/',
@@ -30,8 +30,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -66,21 +66,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'CIT965',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cit965.svg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '课程',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/cit965',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,27 +90,31 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '学习',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '课程',
+                to: '/docs',
               },
+              {
+                label: '博客',
+                to: '/blog',
+              }
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
+                label: '微信',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
@@ -124,7 +128,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cit965',
               },
             ],
           },
